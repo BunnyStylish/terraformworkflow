@@ -1,0 +1,41 @@
+
+.polygon:hover {
+  fill: white;
+  cursor: move;
+  stroke: green;
+  stroke-width: 2;
+}
+
+.polygon {
+  fill: white;
+  stroke: #333;
+  stroke-width: 0.75;
+}
+
+.polygon-select {
+  stroke: #000000;
+  stroke-width: 1;
+  stroke-dasharray: 8 2;
+  animation: dash 20s linear alternate infinite;
+}
+.dropdown-btn {
+  width: 95px;
+    border: none;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 70px;
+    background-color: white;
+
+}
+#azure-1[_ngcontent-c5] {
+    background-image: url("https://img.icons8.com/color/2x/azure-1.png");
+}
+
+@keyframes dash {
+  from {
+    stroke-dashoffset: 1000;
+  }
+  to {
+    stroke-dashoffset: 0;
+  }
+}

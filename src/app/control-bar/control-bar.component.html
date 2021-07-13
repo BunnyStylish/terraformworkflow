@@ -1,0 +1,61 @@
+<div class="card bg-light mb-3" >
+    <div class="card-header bg-dark text-white">Toolbar</div>
+     <button class="list-group-item control"  id="control-circle"  (click)="Servicetogg();"></button>
+    <div class="card-body" id="control-body">
+      <div *ngIf="!Servicetoggle_menu">
+       <div class="card-text">
+        <ul class="list-group">
+            <li class="list-group-item control"  id="control-azure1" (mousedown)="onClick(AZURE1)"  title="Azure_vm" draggable="true" (dragstart)="drag($event, CIRCLE)">
+              
+            </li>
+            <li class="list-group-item control"  id="control-azure2" (mousedown)="onClick(AZURE2)"  title="Azure_stack" draggable="true" (dragstart)="drag($event, ACTIVITY)">
+             
+            </li>
+            <li class="list-group-item control"  id="control-azure3" (mousedown)="onClick(AZURE3)"  title="Azure_capacity" draggable="true" (dragstart)="drag($event, CONDITION)">
+              
+            </li>
+             <li class="list-group-item control"  id="control-azure1" (mousedown)="onClick(AZURE1)"  title="Azure_vm" draggable="true" (dragstart)="drag($event, CIRCLE)">
+              
+            </li>
+            <li class="list-group-item control"  id="control-azure2" (mousedown)="onClick(AZURE2)"  title="Azure_stack" draggable="true" (dragstart)="drag($event, ACTIVITY)">
+             
+            </li>
+            <li class="list-group-item control"  id="control-azure3" (mousedown)="onClick(AZURE3)"  title="Azure_capacity" draggable="true" (dragstart)="drag($event, CONDITION)">
+              
+            </li>
+             <li class="list-group-item control"  id="control-azure1" (mousedown)="onClick(AZURE1)"  title="Azure_vm" draggable="true" (dragstart)="drag($event, CIRCLE)">
+              
+            </li>
+            <li class="list-group-item control"  id="control-azure2" (mousedown)="onClick(AZURE2)"  title="Azure_stack" draggable="true" (dragstart)="drag($event, ACTIVITY)">
+             
+            </li>
+            <li class="list-group-item control"  id="control-azure3" (mousedown)="onClick(AZURE3)"  title="Azure_capacity" draggable="true" (dragstart)="drag($event, CONDITION)">
+              
+            </li>
+            <!-- <li class="list-group-item control"  id="control-arrow" (click)="onClick(ARROW)"  title="Connector"></li> -->
+        </ul>
+       </div>
+      </div>
+    </div>
+
+    <button class="list-group-item control"  id="control-condition"  (click)="Formstogg();"></button>
+    <div class="card-body" id="control-body">
+      <div *ngIf="!Formstoggle_menu">
+       <div class="card-text">
+        <ul class="list-group">
+            <li class="list-group-item control"  id="control-gcp1" (mousedown)="onClick(GCP1)"  title="AI_platform" draggable="true" (dragstart)="drag($event, CIRCLE)">
+              
+            </li>
+            <li class="list-group-item control"  id="control-gcp2" (mousedown)="onClick(GCP2)"  title="Comput_eng" draggable="true" (dragstart)="drag($event, ACTIVITY)">
+             
+            </li>
+            <li class="list-group-item control"  id="control-gcp3" (mousedown)="onClick(GCP3)"  title="Big-quesry" draggable="true" (dragstart)="drag($event, CONDITION)">
+              
+            </li>
+            <!-- <li class="list-group-item control"  id="control-arrow" (click)="onClick(ARROW)"  title="Connector"></li> -->
+        </ul>
+       </div>
+      </div>
+
+    </div>
+  </div>
